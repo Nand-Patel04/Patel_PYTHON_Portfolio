@@ -1,7 +1,12 @@
 # Patel_PYTHON_Portfolio
 This is the portfolio of Python code that I learned during BISC 450C (PYTHON I).
 
+
+
 ## Using Jupyter Notebooks (Part 1)
+The basic functions of Jupyter, using the print/import command.
+
+
 
 ```python
 print("hello world!")
@@ -62,8 +67,13 @@ print('%d squared is %d' % (x, y))
 ```
 
     8 squared is 10
+    
+    
 
 ## Using Jupyter Notebooks (Part 2)
+Using Jupyter Notebooks to analyze data from Fortune 500 companies.
+
+
 
 ```python
 %matplotlib inline
@@ -555,7 +565,12 @@ fig.tight_layout()
 
 ![png](output_18_0.png)
 
+
+
 ## Python Fundamentals
+The basic fundamentals of coding Python to generate data.
+
+
 
 ```python
 # Any python interpreter can be used as a calculator:
@@ -690,7 +705,12 @@ print('weight in kilograms is now:', weight_kg)
 
     weight in kilograms is now: 65.0
 
+    
+
 ## Analyzing Patient Data (Part 1-3)
+Importing numpy and generating inflammation data.
+
+
 
 ```python
 import numpy
@@ -921,7 +941,12 @@ print(numpy.mean(data, axis = 1))
      5.925 6.15  6.075 5.75  5.975 5.725 6.3   5.9   6.75  5.925 7.225 6.15
      5.95  6.275 5.7   6.1   6.825 5.975 6.725 5.7   6.25  6.4   7.05  5.9  ]
 
+     
+
 ## Storing Values in Lists
+Generating variables using Python to encode into lists.
+
+
 
 ```python
 odds = [1, 3, 5, 7]
@@ -1072,7 +1097,12 @@ print('Omitting ending index:', sond)
     Using len() to get last entry: ['sep', 'oct', 'nov', 'dec']
     Omitting ending index: ['sep', 'oct', 'nov', 'dec']
 
+    
+
 ## Using Loops
+How to generate loops using multiple variables.
+
+
 
 ```python
 odds = [1,3,5,7]
@@ -1183,7 +1213,12 @@ print(len(name))
 
     3
 
+    
+
 ## Using Multiple Files
+How to collectively visualize data using multiple packages and various data files.
+
+
 
 ```python
 import glob
@@ -1251,7 +1286,12 @@ for filename in filenames:
 
 ![png](output_2_5.png)
 
+
+
 ## Making Choices (Part 1)
+Coding Python to make choices based on given data.
+
+
 
 ```python
 num = 37
@@ -1321,7 +1361,12 @@ else:
 import numpy
 ```
 
+
+
 ## Making Choices (Part 2)
+Coding Python to make choices based on given Inflammation data files.
+
+
 
 ```python
 import numpy
@@ -1383,7 +1428,12 @@ else:
 
     Minima add up to zero! -> HEALTHY PARTICIPANT ALERT!
 
+
+
 ## Creating Functions (Part 1)
+Generating functions and conversions with Python to examine given inflammation data.
+
+
 
 ```python
 fahrenheit_val = 90
@@ -1518,7 +1568,12 @@ print_temperature()
     Temperature in Fahrenheit was: 212.0
     Temperature in Kelvin was: 373.15
 
+    
+
 ## Creating Functions (Part 2-4)
+Generating functions and conversions with Python to examine given inflammation data, including various packages.
+
+
 
 ```python
 import numpy
@@ -2020,7 +2075,11 @@ numpy.loadtxt('inflammation-01.csv', delimiter = ',')
            [0., 0., 1., ..., 1., 1., 0.]])
 
 
+
 ## Defensive Programming
+How Python can detect errors and provide accuracy when coding.
+
+
 
 ```python
 numbers = [1.5, 2.3, 0.7, 0.001, 4.4]
@@ -2077,7 +2136,12 @@ print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0)))
 
     (0, 0, 1.0, 0.2)
 
+    
+
 ## Transcribing DNA into RNA
+Importing a DNA file with a selected gene and how to transcribe DNA into RNA.
+
+
 
 ```python
 # Prompt the user to enter the input fasta file name
@@ -2140,7 +2204,12 @@ print(rna_sequence)
 
     AUGUCUGACGAAAAGAAGGGAGGUGAGACCGAGCACAUCAACCUGAAGGUCCUCGGCCAGGACAACGCCGUCGUCCAGUUCAAGAUCAAGAAGCACACACCCUUGAGGAAGCUGAUGAACGCCUACUGCGACCGUGCCGGACUCUCCAUGCAGGUGGUGCGCUUCCGUUUCGACGGACAGCCCAUCAACGAGAACGACACUCCGACCUCGCUGGAGAUGGAGGAGGGCGACACCAUCGAGGUUUACCAGCAGCAGACUGGUGGCGCUCCAUAAAUGUCUGACGAAAAGAAGGGAGGUGAGACCGAGCACAUCAACCUGAAGGUCCUCGGCCAGGACAACGCCGUCGUCCAGUUCAAGAUCAAGAAGCACACACCCUUGAGGAAGCUGAUGAACGCCUACUGCGACCGUGCCGGACUCUCCAUGCAGGUGGUGCGCUUCCGUUUCGACGGACAGCCCAUCAACGAGAACGACACUCCGACCUCGCUGGAGAUGGAGGAGGGCGACACCAUCGAGGUUUACCAGCAGCAGACUGGUGGCGCUCCAUAA
 
+
+
 ## Translating RNA into Protein
+How to translate the previously transcribed RNA into Protein.
+
+
 
 ```python
 # Prompt the user to enter the input file name
